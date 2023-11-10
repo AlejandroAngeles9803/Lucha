@@ -1,0 +1,12 @@
+.img-center{
+  display: flex;
+  align-items: center;
+}
+
+body{
+
+  background-image: url("imgnes/Fondo2.jfif");
+}
+
+.correct { color: green; font-weight: bold; }
+.incorrect { color: red; font-weight: bold; }

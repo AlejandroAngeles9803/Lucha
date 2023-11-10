@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario web</title>
+
+<style>
+
+body{
+
+    background-image: url("imgnes/Fondo2.jfif");
+}
+
+
+</style>
+
+</head>
+<body>
+    <img src="imgnes/Usa.jfif" width="500px" height="250px" alt="">
+
+<p>
+    
+</p>
+
+<h1>Test your English</h1>
+
+    <!-- Pregunta 1 -->
+    <p>Pregunta 1: ¿Can I park here?</p>
+    <input type="radio" name="respuesta1" value="a"> a) Sorry, I did that<br>
+    <input type="radio" name="respuesta1" value="b"> b) It's the same place<br>
+    <input type="radio" name="respuesta1" value="c"> c) Only for half an hour<br>
+    <input type="radio" name="respuesta1" value="d"> d) Maybe ask permission<br>
+    <input type="radio" name="respuesta1" value="e"> e) Currently not<br>
+
+    <!-- Pregunta 2 -->
+    <p>Pregunta 2: ¿What colour will you paint the children's bedroom?</p>
+    <input type="radio" name="respuesta2" value="a"> a) I hope it was right<br>
+    <input type="radio" name="respuesta2" value="b"> b) We can't decide<br>
+    <input type="radio" name="respuesta2" value="c"> c) It wasn't very difficult<br>
+    <input type="radio" name="respuesta2" value="d"> d) A nice color for children<br>
+    <input type="radio" name="respuesta2" value="e"> e) I don't know<br>
+
+    <!-- Pregunta 3 -->
+    <p>Pregunta 3: ¿I can't understand this email?</p>
+    <input type="radio" name="respuesta3" value="a"> a) Would you like some help?<br>
+    <input type="radio" name="respuesta3" value="b"> b) Don't you know?<br>
+    <input type="radio" name="respuesta3" value="c"> c) I suppose you can<br>
+    <input type="radio" name="respuesta3" value="d"> d) What you do not understand<br>
+    <input type="radio" name="respuesta3" value="e"> e) Because?<br>
+
+    <!-- Pregunta 4 -->
+    <p>Pregunta 4: ¿I'd like two tickets for tomorrow night?</p>
+    <input type="radio" name="respuesta4" value="a"> a) How much did you pay?<br>
+    <input type="radio" name="respuesta4" value="b"> b) Afternoon and evening.<br>
+    <input type="radio" name="respuesta4" value="c"> c) I'll just check for you.<br>
+    <input type="radio" name="respuesta4" value="d"> d) Of course<br>
+    <input type="radio" name="respuesta4" value="e"> e) There are no times available<br>
+
+    <!-- Pregunta 5 -->
+    <p>Pregunta 5: ¿Shall we go to the gym now?</p>
+    <input type="radio" name="respuesta5" value="a"> a) I'm too tired.<br>
+    <input type="radio" name="respuesta5" value="b"> b) It's very good.<br>
+    <input type="radio" name="respuesta5" value="c"> c) Not at all.<br>
+    <input type="radio" name="respuesta5" value="d"> d) Maybe another day<br>
+    <input type="radio" name="respuesta5" value="e"> e) I'll get ready<br>
+
+    <!-- Pregunta 6 -->
+    <p>Pregunta 6: ¿Don't put your cup on the of the table someone will knock it off?</p>
+    <input type="radio" name="respuesta6" value="a"> a) I don't think so<br>
+    <input type="radio" name="respuesta6" value="b"> b) Outside<br>
+    <input type="radio" name="respuesta6" value="c"> c) Edge<br>
+    <input type="radio" name="respuesta6" value="d"> d) Border<br>
+    <input type="radio" name="respuesta6" value="e"> e) Boundary<br>
+
+
+     <!-- Pregunta 7 -->
+     <p>Pregunta 7: ¿I'm sorry I didn't to disturb you?</p>
+     <input type="radio" name="respuesta7" value="a"> a) Think<br>
+     <input type="radio" name="respuesta7" value="b"> b) Hope<br>
+     <input type="radio" name="respuesta7" value="c"> c) Mean<br>
+     <input type="radio" name="respuesta7" value="d"> d) Suppose<br>
+     <input type="radio" name="respuesta7" value="e"> e) About?<br>
+
+      <!-- Pregunta 8 -->
+    <p>Pregunta 8: ¿Tired Melissa is when she gets home from work, she always makes time to say goodnight to the children?</p>
+    <input type="radio" name="respuesta8" value="a"> a) However much<br>
+    <input type="radio" name="respuesta8" value="b"> b) Whatever<br>
+    <input type="radio" name="respuesta8" value="c"> c) No matter how<br>
+    <input type="radio" name="respuesta8" value="d"> d) Although<br>
+    <input type="radio" name="respuesta8" value="e"> e) Sometimes<br>
+
+     <!-- Pregunta 9 -->
+     <p>Pregunta 9: ¿The shop didn't have the shoes I wanted, but they've a pair specially for me?</p>
+     <input type="radio" name="respuesta9" value="a"> a) Ordered<br>
+     <input type="radio" name="respuesta9" value="b"> b) Booked<br>
+     <input type="radio" name="respuesta9" value="c"> c) Commanded<br>
+     <input type="radio" name="respuesta9" value="d"> d) Asked<br>
+     <input type="radio" name="respuesta9" value="e"> e) I'm not interested in that pair<br>
+
+     <!-- Pregunta 10 -->
+     <p>Pregunta 10: ¿Have you got time to discuss your work now or are you to leave?</p>
+     <input type="radio" name="respuesta10" value="a"> a) Round<br>
+     <input type="radio" name="respuesta10" value="b"> b) About<br>
+     <input type="radio" name="respuesta10" value="c"> c) Planned<br>
+     <input type="radio" name="respuesta10" value="d"> d) Thinking<br>
+     <input type="radio" name="respuesta10" value="e"> e) Leave<br>
+
+    <button onclick="verificarRespuestas()">Verificar</button>
+    <p id="resultado"></p>
+    <button id="reinicio" >Reiniciar</button>
+
+
+    <script>
+    const btn_refresh = document.getElementById('reinicio')
+     btn_refresh.addEventListener('click',()=>{
+         const inputs = document.querySelectorAll('input[type=radio]');
+         inputs.forEach(input => {
+             input.checked = false;
+             input.disabled = false;
+         })
+         document.getElementById("resultado").innerHTML = "";
+         
+         
+     })
+        function verificarRespuestas() {
+            var respuestasCorrectas = 0;
+
+           
+            if (document.querySelector('input[name="respuesta1"]:checked').value === "c") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta2"]:checked').value === "b") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta3"]:checked').value === "a") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta4"]:checked').value === "c") {
+                respuestasCorrectas++;
+            }
+           if (document.querySelector('input[name="respuesta5"]:checked').value === "b") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta6"]:checked').value === "c") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta7"]:checked').value === "c") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta8"]:checked').value === "c") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta9"]:checked').value === "a") {
+                respuestasCorrectas++;
+            }
+            if (document.querySelector('input[name="respuesta10"]:checked').value === "b") {
+                respuestasCorrectas++;
+            }
+            
+            document.getElementById("resultado").innerHTML = "Respuestas correctas: " + respuestasCorrectas + " de 10";
+            const inputs = document.querySelectorAll('input[type=radio]');
+            inputs.forEach(input => {
+                input.disabled = true;
+            })
+        }
+    </script>
+    </body>
+    </html>

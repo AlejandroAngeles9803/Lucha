@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises Test</title>
+</head>
+<body>
+    
+<style>
+body{
+
+   background-image: url("imagenes/fondomundo.jfif");
+
+}
+</style>
+
+    <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1">Test de Paises</h1>
+          
+            
+        </div>
+    </header>
+   
+    <section class="content-section bg-light" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 just0y-content-center">
+                <div class="col-lg-10">
+                    <div>
+
+                        <img src="imagenes/bruselas.jfif" height="200px" width="300px" alt="">
+
+
+                    <label for="Pregunta1">1. Bruselas, es la capital del pai­s denominado:</label>
+
+                    <select  name="Pregunta" id="Pregunta1" onchange="ShowSelected();">
+                        <option value="">Selecciona una opción</option>
+                        <option value="0">Guatemala</option>
+                        <option value="1">Belgica</option>
+                        <option value="0">Buenos Aires</option>
+                        <option value="0"> Puerto Rico</option>
+                    </select>
+                    <p id="mensaje1"></p>
+
+
+                </div>
+                  <br>
+                  <br>
+                  <div>
+
+                    <img src="imagenes/argentina.jfif" height="200px" width="300px" alt="">
+
+
+                  <label for="Pregunta2">2. La capital de Argentina es:</label>
+
+                  <select name="Pregunta" id="Pregunta2" onchange="ShowSelected();">
+                    <option value="">Selecciona una opción</option>
+                    <option value="0">Guatemala</option>
+                    <option value="0">Belmopan</option>
+                    <option value="1">Buenos Aires</option>
+                    <option value="0">Puerto Rico</option>
+                  
+                  </select>
+                  <p id="mensaje2"></p>
+                </div>
+                <br>
+                <br>
+                <div>
+
+                    <img src="imagenes/sanjose.jfif" height="200px" width="300px" alt="">
+
+
+                    <label for="Pregunta3">3. San Jose es la capital de:</label>
+
+                    <select name="Pregunta" id="Pregunta3" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Brasil</option>
+                      <option value="0">Argentina</option>
+                      <option value="1">Costa Rica</option>
+                      <option value="0">Venezuela</option>
+                      
+                    </select>
+                    <p id="mensaje3"></p>
+                </div>
+                <br>
+                <br>
+                <div>
+
+                    <img src="imagenes/venezuela.jfif" height="200px" width="300px" alt="">
+
+
+
+                    <label for="Pregunta4">4. La capital de Venezuela es:</label>
+
+                    <select name="Pregunta" id="Pregunta4" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Tegucigalpa</option>
+                      <option value="0">Managua</option>
+                      <option value="0">Panama</option>
+                      <option value="1">Caracas</option>
+                     
+                    </select>
+                    <p id="mensaje4"></p>
+                </div>
+                <br>
+                <br>
+                   <div>
+
+                    <img src="imagenes/brasilia.jfif" height="200px" width="300px" alt="">
+
+
+                    <label for="Pregunta5">5. Brasilia, es la capital del pais:</label>
+
+                    <select name="Pregunta" id="Pregunta5" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Colombia</option>
+                      <option value="0">Ecuador</option>
+                      <option value="0">Paraguay</option>
+                      <option value="1">Brasil</option>
+                     
+                    </select>
+
+                    <p id="mensaje5"></p>
+                </div> 
+                <br>
+                <br>
+                <div>
+
+                    <img src="imagenes/peru.jfif" height="200px" width="300px" alt="">
+
+
+
+                    <label for="Pregunta6">6. La capital de Peru es:</label>
+
+                    <select name="Pregunta" id="Pregunta6" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Sucre</option>
+                      <option value="0">Bogota</option>
+                      <option value="0">Montevideo</option>
+                      <option value="1">Lima</option>
+                      
+                    </select>
+                    <p id="mensaje6"></p>
+                </div>
+                <br>
+                <br>
+                    <div>
+
+                        <img src="imagenes/puertoespaña.jfif" height="200px" width="300px" alt="">
+
+
+
+                    <label for="Pregunta7">7. Puerto España es la capital de:</label>
+
+                    <select name="Pregunta" id="Pregunta7" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Surinam</option>
+                      <option value="0">Bolivia</option>
+                      <option value="0">Brasil</option>
+                      <option value="1">Trinidad y Tobago</option>
+                      
+                    </select>
+                    <p id="mensaje7"></p>
+                </div>
+                <br>
+                <br>
+                        <div>
+
+                            <img src="imagenes/cuba.jfif" height="200px" width="300px" alt="">
+
+
+                    <label for="Pregunta8">8.-Cuba, pais cuya capital es:</label>
+
+                    <select name="Pregunta" id="Pregunta8" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Kingston</option>
+                      <option value="0">Santo Domingo</option>
+                      <option value="1">La Habana</option>
+                      <option value="0">Castries</option>
+                      
+                    </select>
+                    <p id="mensaje8"></p>
+                </div>
+                <br>
+<br>
+                <div>
+
+                    <img src="imagenes/managua.jfif" height="200px" width="300px" alt="">
+
+
+                    <label for="Pregunta9">9. Managua, es la capital que pertenece a :</label>
+
+                    <select name="Pregunta" id="Pregunta9" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Panama</option>
+                      <option value="0">Honduras</option>
+                      <option value="0">Belice</option>
+                      <option  value="1">Nicaragua</option>
+                     
+                    </select>
+                    <p id="mensaje9"></p>
+                </div>
+                <br>
+                <br>
+                    <div>
+
+
+                        <img src="imagenes/quito.jfif" height="200px" width="300px" alt="">
+
+
+                    <label for="Pregunta10">10. Ecuador, tiene como capital:</label>
+
+                    <select name="Pregunta" id="Pregunta10" onchange="ShowSelected();">
+                      <option value="">Selecciona una opción</option>
+                      <option value="0">Parabarimo</option>
+                      <option value="0">Montevideo</option>
+                      <option value="0">Asuncion</option>
+                      <option value="1">Quito</option>
+                     
+                    </select>
+                    <p id="mensaje10"></p>
+                </div>
+                <br>
+                <br>
+                <p><button id='sumar'>Calificar</button></p>  
+                <p id='textosalida'></p> 
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="js2/scripts2.js"></script>       
+        <script type="text/javascript">
+            
+            
+        </script>
+         <script>
+          
+          document.getElementById('sumar').addEventListener('click', function() {
+let respuestasCorrectas = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]; 
+let respuestasSeleccionadas = [
+    document.getElementById("Pregunta1").value,
+    document.getElementById("Pregunta2").value,
+    document.getElementById("Pregunta3").value,
+    document.getElementById("Pregunta4").value,
+    document.getElementById("Pregunta5").value,
+    document.getElementById("Pregunta6").value,
+    document.getElementById("Pregunta7").value,
+    document.getElementById("Pregunta8").value,
+    document.getElementById("Pregunta9").value,
+    document.getElementById("Pregunta10").value
+];
+let resultado = 0;
+
+for (let i = 0; i < respuestasSeleccionadas.length; i++) {
+    let preguntaElemento = document.getElementById("Pregunta" + (i + 1));
+    if (respuestasSeleccionadas[i] == respuestasCorrectas[i]) {
+        resultado++;
+        
+        preguntaElemento.classList.add("correcto");
+        preguntaElemento.nextElementSibling.innerText = "Bien hecho, Respuesta correcta"  +   "✅";
+    } else {
+        
+        preguntaElemento.classList.add("Incorrecto");
+        let opciones = preguntaElemento.options;
+        for (let j = 0; j < opciones.length; j++) {
+            if (opciones[j].value == respuestasCorrectas[i]) {
+                preguntaElemento.nextElementSibling.innerText = "Retroalimentacion, recuerda que la capital o pais es: " + opciones[j].innerText   +    "❌";
+            }
+        }
+    }
+}
+
+textosalida.innerText = "Calificación: " + resultado + "/10";
+});
+
+
+    </script>
+
+    </script>
+
+</body>
+</html>
+
+
+</body>
+
+</html>
+
+
+</body>
+</html>
